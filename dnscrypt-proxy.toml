@@ -42,7 +42,7 @@ reject_ttl = 10
 bootstrap_resolvers = ['1.1.1.1:53', '8.8.8.8:53']
 ignore_system_dns = true
 netprobe_timeout = -1
-netprobe_address = '1.1.1.1:53'
+netprobe_address = '9.9.9.9:53'
 
 # Логирование
 log_files_max_size = 10
