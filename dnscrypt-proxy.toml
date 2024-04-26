@@ -73,7 +73,28 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 [anonymized_dns]
 routes = [
     { server_name='ams-dnscrypt-nl', via=['anon-meganerd', 'anon-scaleway-ams'] },
-    { server_name='d0wn-tz-ns1', via=['anon-arapurayil-in-ipv4', 'anon-cs-rome'] }
+    { server_name='d0wn-tz-ns1', via=['anon-arapurayil-in-ipv4', 'anon-cs-rome'] },
+    { server_name='dct-at1', via=['anon-cs-austria', 'anon-techsaviours.org'] },
+    { server_name='dct-nl1', via=['anon-meganerd', 'anon-scaleway-ams'] },
+    { server_name='dct-ru1', via=['anon-cs-czech', 'anon-techsaviours.org'] },
+    { server_name='dnscrypt.be', via=['anon-cs-belgium', 'anon-serbica'] },
+    { server_name='dnscrypt.ca-1', via=['anon-cs-il', 'anon-openinternet'] },
+    { server_name='dnscrypt.ca-2', via=['anon-cs-il2', 'anon-openinternet'] },
+    { server_name='dnscrypt.pl', via=['anon-cs-poland', 'anon-techsaviours.org'] },
+    { server_name='dnscrypt.uk-ipv4', via=['anon-cs-london', 'anon-scaleway'] },
+    { server_name='dnswarden-uncensor-dc-swiss', via=['anon-cs-fr', 'anon-kama'] },
+    { server_name='meganerd', via=['anon-scaleway-ams', 'anon-serbica'] },
+    { server_name='openinternet', via=['anon-cs-sea', 'anon-inconnu'] },
+    { server_name='plan9dns-fl', via=['anon-cs-tx', 'anon-inconnu'] },
+    { server_name='plan9dns-mx', via=['anon-cs-tx', 'anon-inconnu'] },
+    { server_name='plan9dns-nj', via=['anon-cs-nyc1', 'anon-inconnu'] },
+    { server_name='pryv8boi', via=['anon-cs-dus1', 'anon-techsaviours.org'] },
+    { server_name='sby-limotelu', via=['anon-cs-sydney', 'anon-saldns01-conoha-ipv4'] },
+    { server_name='scaleway-ams', via=['anon-meganerd', 'anon-serbica'] },
+    { server_name='scaleway-fr', via=['anon-cs-fr', 'anon-dnscrypt.uk-ipv4'] },
+    { server_name='serbica', via=['anon-cs-nl', 'anon-scaleway-ams'] },
+    { server_name='techsaviours.org-dnscrypt', via=['anon-cs-berlin', 'anon-dnswarden-swiss'] },
+    { server_name='v.dnscrypt.uk-ipv4', via=['anon-cs-london', 'anon-scaleway'] }
 ]
 skip_incompatible = true
 direct_cert_fallback = false
