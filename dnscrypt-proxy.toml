@@ -41,7 +41,7 @@ reject_ttl = 10
 # Настройки Bootstrap DNS
 bootstrap_resolvers = ['1.1.1.1:53', '8.8.8.8:53']
 ignore_system_dns = true
-netprobe_timeout = 30
+netprobe_timeout = -1
 netprobe_address = '1.1.1.1:53'
 
 # Логирование
